@@ -5,12 +5,12 @@ import OrderFilter from "../../components/OrderFilter/OrderFilter";
 class FilterBar extends Component {
     render() {
         return (
-            <div className="col-lg-3">
+            <div className="m-2 card">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-lg-11">
                         <BrandFilter/>
                     </div>
-                    <div className="col-12">
+                    <div className="col-lg-11">
                         <OrderFilter/>
                     </div>
                 </div>
