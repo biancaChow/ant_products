@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <React.Fragment>
             <div className="container" style={{paddingTop: '6rem'}} >
-                <div className="row">
+                <section>
                     <FilterBar/>
                     <ProductList/>
-                </div>
+                </section>
             </div>
         </React.Fragment>
     );
